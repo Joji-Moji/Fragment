@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class BlankFragment : Fragment() {
+class BlankFragment2 : Fragment() {
+
+
 
 
     override fun onCreateView(
@@ -15,11 +17,12 @@ class BlankFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_1, container, false)
+        return inflater.inflate(R.layout.fragment_2, container, false)
     }
+
 
     companion object {
         @JvmStatic
         fun newInstance() = BlankFragment()
-            }
     }
+}
