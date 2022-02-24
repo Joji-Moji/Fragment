@@ -13,21 +13,21 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_frag_2"
+            android:id="@+id/textfrag2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Message" />
 
         <Button
-            android:id="@+id/button_frag_1"
+            android:id="@+id/buttonfrag2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="send massage" />
 
         <Button
-            android:id="@+id/button_activity_2"
+            android:id="@+id/buttonactivity2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
